@@ -8,19 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="turbine" />
         <module name="compute-service" />
+        <module name="service-A" />
+        <module name="service-B" />
+        <module name="hystrix-dashboard" />
+        <module name="api-gateway" />
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
-        <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
       <module name="compute-service" target="1.8" />
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
       <module name="my-spring-cloud" target="1.8" />
+      <module name="service-A" target="1.8" />
+      <module name="service-B" target="1.8" />
       <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
