@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: hystrix-dashboard
+
+server:
+  port: 2001
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/

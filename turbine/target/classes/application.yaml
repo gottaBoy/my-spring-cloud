@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: turbine
+
+server:
+  port: 8093
+
+#management:
+#  port: 2002
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+#turbine:
+#  app-config: ribbon-consumer
+#  cluster-name-expression: "default"
+#  combine-host-port: true
