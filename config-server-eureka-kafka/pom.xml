@@ -4,35 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mysting.springcloud</groupId>
-	<artifactId>my-spring-cloud</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<artifactId>config-server-eureka-kafka</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
 
-	<name>my-spring-cloud</name>
+	<name>config-server-eureka-kafka</name>
 	<description>Spring Cloud project</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.5.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.mysting.springcloud</groupId>
+		<artifactId>my-spring-cloud</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-
-	<modules>
-		<module>compute-service</module>
-		<module>eureka-server</module>
-		<module>eureka-ribbon</module>
-		<module>eureka-feign</module>
-		<module>hystrix-dashboard</module>
-		<module>turbine</module>
-		<module>api-gateway</module>
-		<module>service-A</module>
-		<module>service-B</module>
-		<module>config-client-eureka</module>
-		<module>config-client-eureka-kafka</module>
-		<module>config-server-eureka</module>
-		<module>config-server-eureka-kafka</module>
-	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,15 +25,16 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
-
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-kafka</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<dependencyManagement>
@@ -58,13 +42,13 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Brixton.RELEASE</version>
+				<version>Brixton.SR5</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
+	
 	<build>
 		<plugins>
 			<plugin>

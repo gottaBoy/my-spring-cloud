@@ -7,19 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="turbine" />
-        <module name="compute-service" />
         <module name="service-A" />
         <module name="service-B" />
+        <module name="config-client-eureka" />
+        <module name="config-server-eureka-kafka" />
+        <module name="eureka-server" />
+        <module name="compute-service" />
+        <module name="config-server-eureka" />
         <module name="hystrix-dashboard" />
+        <module name="config-client-eureka-kafka" />
         <module name="api-gateway" />
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
-        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
       <module name="compute-service" target="1.8" />
+      <module name="config-client-eureka" target="1.8" />
+      <module name="config-client-eureka-kafka" target="1.8" />
+      <module name="config-server-eureka" target="1.8" />
+      <module name="config-server-eureka-kafka" target="1.8" />
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
       <module name="eureka-server" target="1.8" />

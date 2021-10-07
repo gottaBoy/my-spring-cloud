@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/compute-service/compute-service.iml" filepath="$PROJECT_DIR$/compute-service/compute-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-eureka/config-client-eureka.iml" filepath="$PROJECT_DIR$/config-client-eureka/config-client-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-eureka-kafka/config-client-eureka-kafka.iml" filepath="$PROJECT_DIR$/config-client-eureka-kafka/config-client-eureka-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-eureka/config-server-eureka.iml" filepath="$PROJECT_DIR$/config-server-eureka/config-server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-eureka-kafka/config-server-eureka-kafka.iml" filepath="$PROJECT_DIR$/config-server-eureka-kafka/config-server-eureka-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-feign/eureka-feign.iml" filepath="$PROJECT_DIR$/eureka-feign/eureka-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" filepath="$PROJECT_DIR$/eureka-ribbon/eureka-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
