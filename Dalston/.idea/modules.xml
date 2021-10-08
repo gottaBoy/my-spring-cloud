@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-with-eureka/api-gateway-with-eureka.iml" filepath="$PROJECT_DIR$/api-gateway-with-eureka/api-gateway-with-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-git/config-server-git.iml" filepath="$PROJECT_DIR$/config-server-git/config-server-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-client/consul-client.iml" filepath="$PROJECT_DIR$/consul-client/consul-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-consumer/consul-consumer.iml" filepath="$PROJECT_DIR$/consul-consumer/consul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-feign/eureka-consumer-feign.iml" filepath="$PROJECT_DIR$/eureka-consumer-feign/eureka-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-feign-hystrix/eureka-consumer-feign-hystrix.iml" filepath="$PROJECT_DIR$/eureka-consumer-feign-hystrix/eureka-consumer-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-ribbon/eureka-consumer-ribbon.iml" filepath="$PROJECT_DIR$/eureka-consumer-ribbon/eureka-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer-ribbon-hystrix/eureka-consumer-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/eureka-consumer-ribbon-hystrix/eureka-consumer-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-api/eureka-feign-api.iml" filepath="$PROJECT_DIR$/eureka-feign-api/eureka-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" filepath="$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-consumer/eureka-feign-consumer.iml" filepath="$PROJECT_DIR$/eureka-feign-consumer/eureka-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-upload-client/eureka-feign-upload-client.iml" filepath="$PROJECT_DIR$/eureka-feign-upload-client/eureka-feign-upload-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-upload-server/eureka-feign-upload-server.iml" filepath="$PROJECT_DIR$/eureka-feign-upload-server/eureka-feign-upload-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-collapser-consumer/hystrix-collapser-consumer.iml" filepath="$PROJECT_DIR$/hystrix-collapser-consumer/hystrix-collapser-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-collapser-provider/hystrix-collapser-provider.iml" filepath="$PROJECT_DIR$/hystrix-collapser-provider/hystrix-collapser-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dalston.iml" filepath="$PROJECT_DIR$/spring-cloud-dalston.iml" />
+    </modules>
+  </component>
+</project>

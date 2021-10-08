@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-gateway-with-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server-git/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer-feign-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer-ribbon-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-collapser-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-collapser-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java" charset="UTF-8" />
+  </component>
+</project>

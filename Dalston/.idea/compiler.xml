@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-feign-api" />
+        <module name="eureka-feign-upload-server" />
+        <module name="hystrix-collapser-provider" />
+        <module name="hystrix-collapser-consumer" />
+        <module name="eureka-feign-consumer" />
+        <module name="config-client" />
+        <module name="eureka-feign-upload-client" />
+        <module name="config-server-git" />
+        <module name="consul-consumer" />
+        <module name="eureka-consumer-ribbon" />
+        <module name="api-gateway-with-eureka" />
+        <module name="eureka-consumer-feign" />
+        <module name="eureka-server" />
+        <module name="eureka-feign-client" />
+        <module name="eureka-client" />
+        <module name="consul-client" />
+        <module name="eureka-consumer-ribbon-hystrix" />
+        <module name="hystrix-dashboard" />
+        <module name="api-gateway" />
+        <module name="eureka-consumer" />
+        <module name="eureka-consumer-feign-hystrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="api-gateway-with-eureka" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server-git" target="1.8" />
+      <module name="consul-client" target="1.8" />
+      <module name="consul-consumer" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-consumer-feign" target="1.8" />
+      <module name="eureka-consumer-feign-hystrix" target="1.8" />
+      <module name="eureka-consumer-ribbon" target="1.8" />
+      <module name="eureka-consumer-ribbon-hystrix" target="1.8" />
+      <module name="eureka-feign-api" target="1.8" />
+      <module name="eureka-feign-client" target="1.8" />
+      <module name="eureka-feign-consumer" target="1.8" />
+      <module name="eureka-feign-upload-client" target="1.8" />
+      <module name="eureka-feign-upload-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="hystrix-collapser-consumer" target="1.8" />
+      <module name="hystrix-collapser-provider" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="spring-cloud-dalston" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
