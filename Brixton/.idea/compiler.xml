@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="turbine" />
+        <module name="service-A" />
+        <module name="service-B" />
+        <module name="config-client-eureka" />
+        <module name="config-server-eureka-kafka" />
+        <module name="eureka-server" />
+        <module name="compute-service" />
+        <module name="config-server-eureka" />
+        <module name="config-client-eureka-kafka" />
+        <module name="hystrix-dashboard" />
+        <module name="api-gateway" />
+        <module name="eureka-ribbon" />
+        <module name="eureka-feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
+      <module name="compute-service" target="1.8" />
+      <module name="config-client-eureka" target="1.8" />
+      <module name="config-client-eureka-kafka" target="1.8" />
+      <module name="config-server-eureka" target="1.8" />
+      <module name="config-server-eureka-kafka" target="1.8" />
+      <module name="eureka-feign" target="1.8" />
+      <module name="eureka-ribbon" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="my-spring-cloud" target="1.8" />
+      <module name="service-A" target="1.8" />
+      <module name="service-B" target="1.8" />
+      <module name="turbine" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

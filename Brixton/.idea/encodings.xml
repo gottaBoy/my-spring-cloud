@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/compute-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client-eureka-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server-eureka-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-A/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-B/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine/src/main/java" charset="UTF-8" />
+  </component>
+</project>
