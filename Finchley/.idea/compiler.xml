@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alibaba-nacos-discovery-client-common" />
+        <module name="alibaba-dubbo-api" />
+        <module name="alibaba-sentinel-rate-limiting" />
+        <module name="alibaba-sentinel-dashboard-nacos" />
+        <module name="alibaba-dubbo-client" />
+        <module name="alibaba-sentinel-dashboard-apollo" />
+        <module name="stream-delayed-message" />
+        <module name="stream-consumer-self" />
+        <module name="alibaba-nacos-discovery-server" />
+        <module name="stream-content-route" />
+        <module name="alibaba-sentinel-datasource-nacos" />
+        <module name="alibaba-nacos-config-client" />
+        <module name="alibaba-nacos-discovery-client-feign" />
+        <module name="alibaba-sentinel-datasource-apollo" />
+        <module name="alibaba-nacos-discovery-client-resttemplate" />
+        <module name="alibaba-sentinel-annotation" />
+        <module name="stream-exception-handler-4" />
+        <module name="stream-exception-handler-3" />
+        <module name="alibaba-nacos-discovery-client-webclient" />
+        <module name="stream-exception-handler-2" />
+        <module name="stream-exception-handler-1" />
+        <module name="alibaba-dubbo-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-dubbo-api" target="1.5" />
+      <module name="alibaba-dubbo-client" target="1.8" />
+      <module name="alibaba-dubbo-server" target="1.8" />
+      <module name="alibaba-nacos-config-client" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-common" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-feign" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-resttemplate" target="1.8" />
+      <module name="alibaba-nacos-discovery-client-webclient" target="1.8" />
+      <module name="alibaba-nacos-discovery-server" target="1.8" />
+      <module name="alibaba-sentinel-annotation" target="1.8" />
+      <module name="alibaba-sentinel-dashboard-apollo" target="1.8" />
+      <module name="alibaba-sentinel-dashboard-nacos" target="1.8" />
+      <module name="alibaba-sentinel-datasource-apollo" target="1.8" />
+      <module name="alibaba-sentinel-datasource-nacos" target="1.8" />
+      <module name="alibaba-sentinel-rate-limiting" target="1.8" />
+      <module name="spring-cloud-finchley" target="1.5" />
+      <module name="stream-consumer-self" target="1.8" />
+      <module name="stream-content-route" target="1.8" />
+      <module name="stream-delayed-message" target="1.8" />
+      <module name="stream-exception-handler-1" target="1.8" />
+      <module name="stream-exception-handler-2" target="1.8" />
+      <module name="stream-exception-handler-3" target="1.8" />
+      <module name="stream-exception-handler-4" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alibaba-dubbo-client" options="-parameters" />
+      <module name="alibaba-dubbo-server" options="-parameters" />
+      <module name="alibaba-nacos-config-client" options="-parameters" />
+      <module name="alibaba-nacos-discovery-client-common" options="-parameters" />
+      <module name="alibaba-nacos-discovery-client-feign" options="-parameters" />
+      <module name="alibaba-nacos-discovery-client-resttemplate" options="-parameters" />
+      <module name="alibaba-nacos-discovery-client-webclient" options="-parameters" />
+      <module name="alibaba-nacos-discovery-server" options="-parameters" />
+      <module name="alibaba-sentinel-annotation" options="-parameters" />
+      <module name="alibaba-sentinel-datasource-apollo" options="-parameters" />
+      <module name="alibaba-sentinel-datasource-nacos" options="-parameters" />
+      <module name="alibaba-sentinel-rate-limiting" options="-parameters" />
+      <module name="stream-consumer-self" options="-parameters" />
+      <module name="stream-content-route" options="-parameters" />
+      <module name="stream-delayed-message" options="-parameters" />
+      <module name="stream-exception-handler-1" options="-parameters" />
+      <module name="stream-exception-handler-2" options="-parameters" />
+      <module name="stream-exception-handler-3" options="-parameters" />
+      <module name="stream-exception-handler-4" options="-parameters" />
+    </option>
+  </component>
+</project>

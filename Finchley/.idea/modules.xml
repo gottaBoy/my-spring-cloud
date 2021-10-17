@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alibaba-dubbo-api/alibaba-dubbo-api.iml" filepath="$PROJECT_DIR$/alibaba-dubbo-api/alibaba-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-dubbo-client/alibaba-dubbo-client.iml" filepath="$PROJECT_DIR$/alibaba-dubbo-client/alibaba-dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-dubbo-server/alibaba-dubbo-server.iml" filepath="$PROJECT_DIR$/alibaba-dubbo-server/alibaba-dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-config-client/alibaba-nacos-config-client.iml" filepath="$PROJECT_DIR$/alibaba-nacos-config-client/alibaba-nacos-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-discovery-client-common/alibaba-nacos-discovery-client-common.iml" filepath="$PROJECT_DIR$/alibaba-nacos-discovery-client-common/alibaba-nacos-discovery-client-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-discovery-client-feign/alibaba-nacos-discovery-client-feign.iml" filepath="$PROJECT_DIR$/alibaba-nacos-discovery-client-feign/alibaba-nacos-discovery-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-discovery-client-resttemplate/alibaba-nacos-discovery-client-resttemplate.iml" filepath="$PROJECT_DIR$/alibaba-nacos-discovery-client-resttemplate/alibaba-nacos-discovery-client-resttemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-discovery-client-webclient/alibaba-nacos-discovery-client-webclient.iml" filepath="$PROJECT_DIR$/alibaba-nacos-discovery-client-webclient/alibaba-nacos-discovery-client-webclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-nacos-discovery-server/alibaba-nacos-discovery-server.iml" filepath="$PROJECT_DIR$/alibaba-nacos-discovery-server/alibaba-nacos-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-annotation/alibaba-sentinel-annotation.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-annotation/alibaba-sentinel-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-dashboard-apollo/alibaba-sentinel-dashboard-apollo.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-dashboard-apollo/alibaba-sentinel-dashboard-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-dashboard-nacos/alibaba-sentinel-dashboard-nacos.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-dashboard-nacos/alibaba-sentinel-dashboard-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-datasource-apollo/alibaba-sentinel-datasource-apollo.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-datasource-apollo/alibaba-sentinel-datasource-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-datasource-nacos/alibaba-sentinel-datasource-nacos.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-datasource-nacos/alibaba-sentinel-datasource-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-sentinel-rate-limiting/alibaba-sentinel-rate-limiting.iml" filepath="$PROJECT_DIR$/alibaba-sentinel-rate-limiting/alibaba-sentinel-rate-limiting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-finchley.iml" filepath="$PROJECT_DIR$/spring-cloud-finchley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-consumer-self/stream-consumer-self.iml" filepath="$PROJECT_DIR$/stream-consumer-self/stream-consumer-self.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-content-route/stream-content-route.iml" filepath="$PROJECT_DIR$/stream-content-route/stream-content-route.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-delayed-message/stream-delayed-message.iml" filepath="$PROJECT_DIR$/stream-delayed-message/stream-delayed-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-exception-handler-1/stream-exception-handler-1.iml" filepath="$PROJECT_DIR$/stream-exception-handler-1/stream-exception-handler-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-exception-handler-2/stream-exception-handler-2.iml" filepath="$PROJECT_DIR$/stream-exception-handler-2/stream-exception-handler-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-exception-handler-3/stream-exception-handler-3.iml" filepath="$PROJECT_DIR$/stream-exception-handler-3/stream-exception-handler-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-exception-handler-4/stream-exception-handler-4.iml" filepath="$PROJECT_DIR$/stream-exception-handler-4/stream-exception-handler-4.iml" />
+    </modules>
+  </component>
+</project>

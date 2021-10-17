@@ -1,0 +1,5 @@
+${AnsiColor.BRIGHT_BLUE}:: mysting-tomato-platform 🤓 :: Running Spring Boot ${spring-boot.version} ::
+
+  ${AnsiColor.DEFAULT}项目地址: https://www.twitchquotes.com/ascii-art-generator
+  ${AnsiColor.DEFAULT}开发文档: https://codebeautify.org/image-to-ascii-art
+  ${AnsiColor.DEFAULT}技术博客: https://www.fontke.com/tool/image2ascii/

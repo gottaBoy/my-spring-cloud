@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis.redisson",
+      "type": "com.mysting.tomato.redis.RedissonProperties",
+      "sourceType": "com.mysting.tomato.redis.RedissonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.redisson.config",
+      "type": "java.lang.String",
+      "sourceType": "com.mysting.tomato.redis.RedissonProperties"
+    },
+    {
+      "name": "spring.redis.redisson.enable",
+      "type": "java.lang.String",
+      "sourceType": "com.mysting.tomato.redis.RedissonProperties"
+    }
+  ],
+  "hints": []
+}

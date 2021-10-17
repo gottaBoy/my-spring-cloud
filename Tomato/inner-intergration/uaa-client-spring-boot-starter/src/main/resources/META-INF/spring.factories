@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.mysting.tomato.uaa.client.authorize.provider.AuthAuthorizeConfigProvider,\
+com.mysting.tomato.uaa.client.authorize.OpenAuthorizeConfigManager,\
+com.mysting.tomato.uaa.client.config.ExceptionHandlerAdvice,\
+com.mysting.tomato.common.feign.FeignInterceptorConfig,\
+com.mysting.tomato.uaa.client.config.SecurityHandlerConfig,\
+com.mysting.tomato.uaa.client.config.TokenStoreConfig,\
+com.mysting.tomato.uaa.client.UAAClientAutoConfig

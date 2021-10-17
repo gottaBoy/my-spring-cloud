@@ -1,0 +1,6 @@
+spring:
+  freemarker:
+    suffix: .ftl
+  profiles:
+    active: slave0
+    

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-spring-boot-starter" />
+        <module name="db-spring-boot-starter" />
+        <module name="rabbitmq-spring-boot-starter" />
+        <module name="batch-center" />
+        <module name="ribbon-spring-boot-starter" />
+        <module name="job-demo" />
+        <module name="uaa-client-spring-boot-starter" />
+        <module name="redis-spring-boot-starter" />
+        <module name="eureka-server" />
+        <module name="log-center" />
+        <module name="job-admin" />
+        <module name="file-center" />
+        <module name="job-core" />
+        <module name="back-center" />
+        <module name="user-center" />
+        <module name="es-server" />
+        <module name="auth-sso" />
+        <module name="log-spring-boot-starter" />
+        <module name="auth-server" />
+        <module name="generator-center" />
+        <module name="new-api-gateway" />
+        <module name="uaa-server-spring-boot-starter" />
+        <module name="api-gateway" />
+        <module name="es-client" />
+        <module name="admin-server" />
+        <module name="sms-center" />
+        <module name="transaction-center" />
+        <module name="workflow-center" />
+        <module name="swagger-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="auth-server" target="1.8" />
+      <module name="auth-sso" target="1.8" />
+      <module name="back-center" target="1.8" />
+      <module name="batch-center" target="1.8" />
+      <module name="business-center" target="1.8" />
+      <module name="common-spring-boot-starter" target="1.8" />
+      <module name="db-spring-boot-starter" target="1.8" />
+      <module name="es-client" target="1.8" />
+      <module name="es-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="file-center" target="1.8" />
+      <module name="generator-center" target="1.8" />
+      <module name="inner-intergration" target="1.8" />
+      <module name="job-admin" target="1.8" />
+      <module name="job-center" target="1.8" />
+      <module name="job-core" target="1.8" />
+      <module name="job-demo" target="1.8" />
+      <module name="log-center" target="1.8" />
+      <module name="log-spring-boot-starter" target="1.8" />
+      <module name="monitor-center" target="1.8" />
+      <module name="mysting-tomato-platform" target="1.8" />
+      <module name="new-api-gateway" target="1.8" />
+      <module name="oauth-center" target="1.8" />
+      <module name="open-capacity-platform" target="1.8" />
+      <module name="rabbitmq-spring-boot-starter" target="1.8" />
+      <module name="redis-spring-boot-starter" target="1.8" />
+      <module name="register-center" target="1.8" />
+      <module name="ribbon-spring-boot-starter" target="1.8" />
+      <module name="sms-center" target="1.8" />
+      <module name="swagger-spring-boot-starter" target="1.8" />
+      <module name="transaction-center" target="1.8" />
+      <module name="uaa-client-spring-boot-starter" target="1.8" />
+      <module name="uaa-server-spring-boot-starter" target="1.8" />
+      <module name="user-center" target="1.8" />
+      <module name="web-portal" target="1.8" />
+      <module name="workflow-center" target="1.8" />
+      <module name="zipkin-center" target="1.8" />
+      <module name="zipkin-center-es" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-server" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="auth-server" options="-parameters" />
+      <module name="auth-sso" options="-parameters" />
+      <module name="back-center" options="-parameters" />
+      <module name="batch-center" options="-parameters" />
+      <module name="common-spring-boot-starter" options="-parameters" />
+      <module name="db-spring-boot-starter" options="-parameters" />
+      <module name="es-client" options="-parameters" />
+      <module name="es-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="file-center" options="-parameters" />
+      <module name="generator-center" options="-parameters" />
+      <module name="job-admin" options="-parameters" />
+      <module name="job-core" options="-parameters" />
+      <module name="job-demo" options="-parameters" />
+      <module name="log-center" options="-parameters" />
+      <module name="log-spring-boot-starter" options="-parameters" />
+      <module name="new-api-gateway" options="-parameters" />
+      <module name="rabbitmq-spring-boot-starter" options="-parameters" />
+      <module name="redis-spring-boot-starter" options="-parameters" />
+      <module name="ribbon-spring-boot-starter" options="-parameters" />
+      <module name="sms-center" options="-parameters" />
+      <module name="swagger-spring-boot-starter" options="-parameters" />
+      <module name="transaction-center" options="-parameters" />
+      <module name="uaa-client-spring-boot-starter" options="-parameters" />
+      <module name="uaa-server-spring-boot-starter" options="-parameters" />
+      <module name="user-center" options="-parameters" />
+      <module name="workflow-center" options="-parameters" />
+    </option>
+  </component>
+</project>

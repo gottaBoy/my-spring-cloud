@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/monitor-center/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-center/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/oauth-center/auth-server/auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-center/auth-sso/auth-sso.iml" filepath="$PROJECT_DIR$/oauth-center/auth-sso/auth-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-portal/back-center/back-center.iml" filepath="$PROJECT_DIR$/web-portal/back-center/back-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/batch-center/batch-center.iml" filepath="$PROJECT_DIR$/business-center/batch-center/batch-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/business-center.iml" filepath="$PROJECT_DIR$/business-center/business-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/common-spring-boot-starter/common-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/common-spring-boot-starter/common-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/db-spring-boot-starter/db-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/db-spring-boot-starter/db-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center-es/es-client/es-client.iml" filepath="$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center-es/es-client/es-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center-es/es-server/es-server.iml" filepath="$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center-es/es-server/es-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-center/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/register-center/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/file-center/file-center.iml" filepath="$PROJECT_DIR$/business-center/file-center/file-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/generator-center/generator-center.iml" filepath="$PROJECT_DIR$/business-center/generator-center/generator-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/inner-intergration.iml" filepath="$PROJECT_DIR$/inner-intergration/inner-intergration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-center/job-admin/job-admin.iml" filepath="$PROJECT_DIR$/job-center/job-admin/job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-center/job-center.iml" filepath="$PROJECT_DIR$/job-center/job-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-center/job-core/job-core.iml" filepath="$PROJECT_DIR$/job-center/job-core/job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job-center/job-demo/job-demo.iml" filepath="$PROJECT_DIR$/job-center/job-demo/job-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/log-center/log-center.iml" filepath="$PROJECT_DIR$/monitor-center/log-center/log-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/log-spring-boot-starter/log-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/log-spring-boot-starter/log-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/monitor-center.iml" filepath="$PROJECT_DIR$/monitor-center/monitor-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysting-tomato-platform.iml" filepath="$PROJECT_DIR$/mysting-tomato-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new-api-gateway/new-api-gateway.iml" filepath="$PROJECT_DIR$/new-api-gateway/new-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-center/oauth-center.iml" filepath="$PROJECT_DIR$/oauth-center/oauth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/rabbitmq-spring-boot-starter/rabbitmq-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/rabbitmq-spring-boot-starter/rabbitmq-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/redis-spring-boot-starter/redis-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/redis-spring-boot-starter/redis-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-center/register-center.iml" filepath="$PROJECT_DIR$/register-center/register-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/ribbon-spring-boot-starter/ribbon-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/ribbon-spring-boot-starter/ribbon-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/sms-center/sms-center.iml" filepath="$PROJECT_DIR$/business-center/sms-center/sms-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/swagger-spring-boot-starter/swagger-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/swagger-spring-boot-starter/swagger-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/transaction-center/transaction-center.iml" filepath="$PROJECT_DIR$/monitor-center/transaction-center/transaction-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/uaa-client-spring-boot-starter/uaa-client-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/uaa-client-spring-boot-starter/uaa-client-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-intergration/uaa-server-spring-boot-starter/uaa-server-spring-boot-starter.iml" filepath="$PROJECT_DIR$/inner-intergration/uaa-server-spring-boot-starter/uaa-server-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/user-center/user-center.iml" filepath="$PROJECT_DIR$/business-center/user-center/user-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-portal/web-portal.iml" filepath="$PROJECT_DIR$/web-portal/web-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-center/workflow-center/workflow-center.iml" filepath="$PROJECT_DIR$/business-center/workflow-center/workflow-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center.iml" filepath="$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center-es/zipkin-center-es.iml" filepath="$PROJECT_DIR$/monitor-center/zipkin-center/zipkin-center-es/zipkin-center-es.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.druid.core",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.mysting.tomato.datasource.DataSourceAutoConfig",
+      "sourceMethod": "dataSourceCore()"
+    },
+    {
+      "name": "spring.datasource.druid.log",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.mysting.tomato.datasource.DataSourceAutoConfig",
+      "sourceMethod": "dataSourceLog()"
+    },
+    {
+      "name": "spring.datasource.tenant",
+      "type": "com.mysting.tomato.datasource.props.TenantProperties",
+      "sourceType": "com.mysting.tomato.datasource.props.TenantProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.tenant.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mysting.tomato.datasource.props.TenantProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.datasource.tenant.not-tenant-tables",
+      "type": "java.util.TreeSet<java.lang.String>",
+      "sourceType": "com.mysting.tomato.datasource.props.TenantProperties"
+    }
+  ],
+  "hints": []
+}

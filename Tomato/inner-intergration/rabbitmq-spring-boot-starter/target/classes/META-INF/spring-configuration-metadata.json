@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "mysting.fast.rabbitmq",
+      "type": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mysting.fast.rabbitmq.addresses",
+      "type": "java.lang.String",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties"
+    },
+    {
+      "name": "mysting.fast.rabbitmq.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "mysting.fast.rabbitmq.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties"
+    },
+    {
+      "name": "mysting.fast.rabbitmq.publisher-confirms",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "mysting.fast.rabbitmq.username",
+      "type": "java.lang.String",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties"
+    },
+    {
+      "name": "mysting.fast.rabbitmq.virtual-host",
+      "type": "java.lang.String",
+      "sourceType": "com.mysting.tomato.rabbitmq.config.RabbitMQProperties"
+    }
+  ],
+  "hints": []
+}

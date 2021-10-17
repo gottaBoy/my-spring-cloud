@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "security.oauth2",
+      "type": "com.mysting.tomato.common.auth.props.PermitUrlProperties",
+      "sourceType": "com.mysting.tomato.common.auth.props.PermitUrlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.oauth2.ignored",
+      "type": "java.lang.String[]",
+      "sourceType": "com.mysting.tomato.common.auth.props.PermitUrlProperties"
+    }
+  ],
+  "hints": []
+}
