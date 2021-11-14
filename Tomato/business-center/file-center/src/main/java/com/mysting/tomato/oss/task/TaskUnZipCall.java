@@ -5,11 +5,6 @@ import java.util.concurrent.Callable;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-/**
- * @author pm 1280415703@qq.com
- * @date 2019/8/11 16:30
- */
-
 public class TaskUnZipCall implements Callable<Boolean> {
     ZipEntry entry;
     private ZipFile zip;

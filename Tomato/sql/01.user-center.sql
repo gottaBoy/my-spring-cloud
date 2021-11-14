@@ -8,15 +8,15 @@ Use `user-center`;
 
 DROP TABLE IF EXISTS `sys_menu`;
 CREATE TABLE `sys_menu` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `parent_id` int(11) NOT NULL,
-  `name` varchar(64) NOT NULL,
-  `url` varchar(1024) DEFAULT NULL,
-  `path` varchar(1024) DEFAULT NULL,
-  `css` varchar(32) DEFAULT NULL,
-  `sort` int(11) NOT NULL,
-  `create_time` datetime NOT NULL,
-  `update_time` datetime NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `parent_id` int(11) NOT NULL COMMENT '父节点',
+  `name` varchar(64) NOT NULL COMMENT '名称',
+  `url` varchar(1024) DEFAULT NULL COMMENT '资源定位',
+  `path` varchar(1024) DEFAULT NULL COMMENT '路径',
+  `css` varchar(32) DEFAULT NULL COMMENT '样式链',
+  `sort` int(11) NOT NULL COMMENT '排序',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
   `is_menu` int(11) DEFAULT NULL COMMENT '是否菜单 1 是 2 不是',
   `hidden` int(11) DEFAULT NULL COMMENT '是否隐藏,0 false 1 true',
   PRIMARY KEY (`id`)
@@ -62,14 +62,14 @@ INSERT INTO `sys_menu` VALUES
 
 DROP TABLE IF EXISTS `sys_permission`;
 CREATE TABLE `sys_permission` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `permission` varchar(50) NOT NULL,
-  `name` varchar(50) NOT NULL,
-  `create_time` datetime NOT NULL,
-  `update_time` datetime NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `permission` varchar(50) NOT NULL COMMENT '权限',
+  `name` varchar(50) NOT NULL COMMENT '姓名',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`),
   UNIQUE KEY `permission` (`permission`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 #
 # Data for table "sys_permission"
@@ -121,11 +121,11 @@ INSERT INTO `sys_permission` VALUES (40, 'file:del', '删除文件', '2019-05-17
 
 DROP TABLE IF EXISTS `sys_role`;
 CREATE TABLE `sys_role` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `code` varchar(32) NOT NULL COMMENT '角色code',
   `name` varchar(50) NOT NULL COMMENT '角色名',
-  `create_time` datetime NOT NULL,
-  `update_time` datetime NOT NULL,
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`),
   UNIQUE KEY `code` (`code`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
@@ -134,7 +134,8 @@ CREATE TABLE `sys_role` (
 # Data for table "sys_role"
 #
 
-INSERT INTO `sys_role` VALUES (1,'ADMIN','管理员','2017-11-17 16:56:59','2017-11-17 16:56:59'),(3,'002','普通用户','2019-03-27 02:52:00','2019-03-27 02:52:00');
+INSERT INTO `sys_role` VALUES (1,'ADMIN','管理员','2017-11-17 16:56:59','2017-11-17 16:56:59')
+,(3,'002','普通用户','2019-03-27 02:52:00','2019-03-27 02:52:00');
 
 #
 # Structure for table "sys_role_menu"
@@ -142,9 +143,9 @@ INSERT INTO `sys_role` VALUES (1,'ADMIN','管理员','2017-11-17 16:56:59','2017
 
 DROP TABLE IF EXISTS `sys_role_menu`;
 CREATE TABLE `sys_role_menu` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `role_id` bigint(20) NOT NULL,
-  `menu_id` bigint(20) NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `role_id` bigint(20) NOT NULL COMMENT '角色ID',
+  `menu_id` bigint(20) NOT NULL COMMENT '菜单ID',
   PRIMARY KEY (`id`),
   UNIQUE KEY (`role_id`,`menu_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -166,9 +167,9 @@ INSERT INTO `sys_role_menu`  (`role_id`,`menu_id`)  VALUES
 
 DROP TABLE IF EXISTS `sys_role_permission`;
 CREATE TABLE `sys_role_permission` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `role_id` int(11) NOT NULL,
-  `permission_id` bigint(20) NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `role_id` int(11) NOT NULL COMMENT '角色ID',
+  `permission_id` bigint(20) NOT NULL COMMENT '权限ID',
   PRIMARY KEY (`id`),
   UNIQUE KEY (`role_id`,`permission_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -188,9 +189,9 @@ INSERT INTO `sys_role_permission` (`role_id`,`permission_id`) VALUES (1,1),(1,2)
 
 DROP TABLE IF EXISTS `sys_role_user`;
 CREATE TABLE `sys_role_user` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `user_id` bigint(20) NOT NULL,
-  `role_id` bigint(20) NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `user_id` bigint(20) NOT NULL COMMENT '用户ID',
+  `role_id` bigint(20) NOT NULL COMMENT '角色ID',
   PRIMARY KEY (`id`),
   UNIQUE KEY (`user_id`,`role_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4;
@@ -207,17 +208,17 @@ INSERT INTO `sys_role_user` VALUES (1,1277137734524300032,1),(2,1277120261867529
 #
 DROP TABLE IF EXISTS `sys_user`;
 CREATE TABLE `sys_user` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) NOT NULL,
-  `password` varchar(60) NOT NULL,
-  `nick_name` varchar(255) DEFAULT NULL,
-  `head_img_url` varchar(1024) DEFAULT NULL,
-  `phone` varchar(11) DEFAULT NULL,
-  `sex` tinyint(1) DEFAULT NULL,
-  `enabled` tinyint(1) NOT NULL DEFAULT '1',
-  `type` varchar(16) NOT NULL,
-  `create_time` datetime NOT NULL,
-  `update_time` datetime NOT NULL,
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `username` varchar(50) NOT NULL COMMENT '用户名',
+  `password` varchar(60) NOT NULL COMMENT '密码',
+  `nick_name` varchar(255) DEFAULT NULL COMMENT '昵称',
+  `head_img_url` varchar(1024) DEFAULT NULL COMMENT '头像',
+  `phone` varchar(11) DEFAULT NULL COMMENT '手机',
+  `sex` tinyint(1) DEFAULT NULL COMMENT '性别',
+  `enabled` tinyint(1) NOT NULL DEFAULT '1' COMMENT '启用',
+  `type` varchar(16) NOT NULL COMMENT '类型',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`),
   UNIQUE KEY `username` (`username`) USING BTREE
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
@@ -226,5 +227,8 @@ CREATE TABLE `sys_user` (
 # Data for table "sys_user"
 #
 
-INSERT INTO `sys_user` VALUES (1277137734524300032,'admin','$2a$10$Wtw81uu43fGKw9lkOr1RAOTNWxQIZBsB3YDwc/5yDnr/yeG5x92EG','管理员','http://payo7kq4i.bkt.clouddn.com/耳机.jpg','13106975707',1,1,'BACKEND','2017-11-17 16:56:59','2018-09-15 03:12:44'),(1275397643669949952,'test','$2a$10$RD18sHNphJMmcuLuUX/Np.IV/7Ngbjd3Jtj3maFLpwaA6KaHVqPtq','测试账户','http://payo7kq4i.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720180819191900.jpg','13851539156',0,0,'APP','2017-11-17 16:56:59','2018-09-07 03:27:40'),(1277056689447719936,'user','$2a$10$fL/AfD4RDS0LxLJS7zpaZ.YUMfjNWKVvUn7oiA75L1K6PXazSTJPi','体验用户','http://payo7kq4i.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720180819191900.jpg',NULL,1,0,'APP','2017-11-17 16:56:59','2018-09-07 13:38:34'),(1277120261867529984,'owen','$2a$10$4WkpmB1jHncBCrzJ7hJRq.SsiEFiyE/FdgPF26hLs8vzPyoNpZjta','欧文','http://payo7kq4i.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720180819191900.jpg','18579068166',1,0,'APP','2017-11-17 16:56:59','2018-09-12 06:00:31');
+INSERT INTO `sys_user` VALUES (1277137734524300032,'admin','$2a$10$Wtw81uu43fGKw9lkOr1RAOTNWxQIZBsB3YDwc/5yDnr/yeG5x92EG','管理员','http://payo7kq4i.bkt.clouddn.com/耳机.jpg','13106975707',1,1,'BACKEND','2017-11-17 16:56:59','2018-09-15 03:12:44')
+,(1275397643669949952,'test','$2a$10$RD18sHNphJMmcuLuUX/Np.IV/7Ngbjd3Jtj3maFLpwaA6KaHVqPtq','测试账户','http://payo7kq4i.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720180819191900.jpg','13851539156',0,0,'APP','2017-11-17 16:56:59','2018-09-07 03:27:40')
+,(1277056689447719936,'user','$2a$10$fL/AfD4RDS0LxLJS7zpaZ.YUMfjNWKVvUn7oiA75L1K6PXazSTJPi','体验用户','http://payo7kq4i.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720180819191900.jpg',NULL,1,0,'APP','2017-11-17 16:56:59','2018-09-07 13:38:34')
+,(1277120261867529984,'owen','$2a$10$4WkpmB1jHncBCrzJ7hJRq.SsiEFiyE/FdgPF26hLs8vzPyoNpZjta','欧文','http://payo7kq4i.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720180819191900.jpg','18579068166',1,0,'APP','2017-11-17 16:56:59','2018-09-12 06:00:31');
 

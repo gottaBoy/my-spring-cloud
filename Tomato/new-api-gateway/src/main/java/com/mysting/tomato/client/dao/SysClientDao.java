@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Select;
  * @version 创建时间：2018年4月5日 下午19:52:21 
  * 类说明 查询应用 
  * blog:https://blog.51cto.com/13005375 
- * code:https://gitee.com/owenwangwen/open-capacity-platform
+ * code:https://gitee.com/owenwangwen/com.mysting.tomato-platform
  */
 @Mapper
 @SuppressWarnings("all")

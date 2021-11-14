@@ -1,9 +1,9 @@
 spring:
   datasource:
     druid: 
-      url: jdbc:mysql://59.110.164.254:3306/oauth-center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false 
-      username: root
-      password: root
+      url: jdbc:mysql://mysting.com:3306/oauth-center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+      username: test
+      password: my123456
       initial-size: 1
       max-active: 20
       min-idle: 1
@@ -62,10 +62,10 @@ spring:
       #aop-patterns= # Spring监控AOP切入点，如x.y.z.service.*,配置多个英文逗号分隔
 ################### mysq end ##########################
 #  zipkin:
-#    base-url: http://127.0.0.1:11008
+#    base-url: http://mysting.com:11008
   redis:
 ################### redis 单机版 start ########################## 
-    host: 59.110.164.254
+    host: mysting.com
     port: 6379
     timeout: 6000
     database: 1
@@ -100,7 +100,7 @@ mybatis-plus:
     banner: false 
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl 
-  mapper-locations: classpath*:com/open/**/dao/*.xml  
+  mapper-locations: classpath*:com/mysting/tomato/**/dao/*.xml
 
 
 security:
@@ -276,7 +276,7 @@ swagger:
 
 logging:
   level:
-    com.open.capacity: INFO 
+    com.mysting.tomato: INFO
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE

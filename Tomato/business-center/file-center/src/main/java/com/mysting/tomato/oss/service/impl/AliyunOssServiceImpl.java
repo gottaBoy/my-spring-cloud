@@ -11,8 +11,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * @author 作者 owen 
- * @version 创建时间：2017年11月12日 上午22:57:51
 *  阿里云oss存储文件
 */
 @Service("aliyunOssServiceImpl")

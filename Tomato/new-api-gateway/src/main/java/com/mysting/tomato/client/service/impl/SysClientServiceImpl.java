@@ -25,7 +25,7 @@ import lombok.extern.slf4j.Slf4j;
  * @version 创建时间：2018年4月5日 下午19:52:21 类说明
  * 查询应用绑定的资源权限
  * blog: https://blog.51cto.com/13005375 
- * code: https://gitee.com/owenwangwen/open-capacity-platform
+ * code: https://gitee.com/owenwangwen/com.mysting.tomato-platform
  */
 @Slf4j
 @SuppressWarnings("all")

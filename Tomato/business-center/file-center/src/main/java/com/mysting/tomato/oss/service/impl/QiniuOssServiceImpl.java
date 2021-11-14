@@ -35,8 +35,6 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author 作者 owen 
- * @version 创建时间：2017年11月12日 上午22:57:51 
  * 七牛云oss存储文件
  */
 @Service("qiniuOssServiceImpl")

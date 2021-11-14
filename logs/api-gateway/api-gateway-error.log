@@ -1,0 +1,2 @@
+[api-gateway:192.168.0.102:9200] [3b304bd079638434,3b304bd079638434] 2021-10-24 10:44:15.866 ERROR 90141 [hystrix-api-gatewaysms-center-1] com.mysting.tomato.client.provider.GatewayFallbackProvider 网关执行请求:sms-center失败,hystrix服务降级处理
+[api-gateway:192.168.0.102:9200] [d7562d6936fbacad,d7562d6936fbacad] 2021-10-24 10:44:50.237 ERROR 90141 [hystrix-api-gatewaygenerator-center-1] com.mysting.tomato.client.provider.GatewayFallbackProvider 网关执行请求:generator-center失败,hystrix服务降级处理

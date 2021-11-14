@@ -27,8 +27,6 @@ import java.util.Objects;
  * 本地存储文件
  * 该实现文件服务只能部署一台 
  * 如多台机器nfs文件存储解决
- * @author pm 1280415703@qq.com
- * @date 2019/8/11 16:22
  */
   
 @Service("localOssServiceImpl")

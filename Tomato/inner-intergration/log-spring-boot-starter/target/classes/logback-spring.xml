@@ -99,7 +99,7 @@
         <discardingThreshold>0</discardingThreshold>
         <appender-ref ref="biz_log"/>
     </appender>
-    <logger name="com.open.capacity.log.monitor" level="info" addtivity="false">
+    <logger name="com.mysting.tomato.log.monitor" level="info" addtivity="false">
         <appender-ref ref="biz_log_async" />
     </logger>
 	<!-- 

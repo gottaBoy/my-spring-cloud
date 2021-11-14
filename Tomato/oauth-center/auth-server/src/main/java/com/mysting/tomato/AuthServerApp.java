@@ -14,11 +14,6 @@ import com.mysting.tomato.common.port.PortApplicationEnvironmentPreparedEventLis
 import com.mysting.tomato.log.annotation.EnableLogging;
 import com.mysting.tomato.uaa.server.UAAServerConfig;
 
-/** 
-* @author owen 624191343@qq.com
- * @version 创建时间：2017年11月12日 上午22:57:51
-* 类说明 
-*/
 @EnableLogging
 @EnableDiscoveryClient
 @SpringBootApplication

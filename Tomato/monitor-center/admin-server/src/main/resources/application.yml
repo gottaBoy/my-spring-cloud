@@ -4,8 +4,8 @@ spring:
       notify:  
         mail:  
           enabled: false
-          to: 624191343@qq.com
-          from: 18579068155@163.com 
+          to: 460632205@qq.com
+          from: gottaboy@163.com
 #          ignore-changes: UNKNOWN:UP  
           ignore-changes:  
             -  
@@ -18,7 +18,7 @@ spring:
         location: turbine  
   mail:
     host: smtp.163.com
-    username: 18579068155@163.com
+    username: gottaboy@163.com
     password: 1q2w3e4r
     properties:
         mail.smtp.auth : true

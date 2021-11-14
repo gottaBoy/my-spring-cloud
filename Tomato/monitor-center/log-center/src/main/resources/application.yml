@@ -2,9 +2,9 @@ spring:
   datasource:  
     druid: 
       # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别)
-      url: jdbc:mysql://59.110.164.254:3306/log-center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false 
-      username: root
-      password: root
+      url: jdbc:mysql://127.0.0.1:3306/log-center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+      username: test
+      password: my123456
       driver-class-name:  com.mysql.cj.jdbc.Driver   
       #连接池配置(通常来说，只需要修改initialSize、minIdle、maxActive
       initial-size: 1
@@ -56,7 +56,7 @@ spring:
 ################### mysq end ##########################
   redis:
 ################### redis 单机版 start ########################## 
-    host: 59.110.164.254
+    host: 127.0.0.1
     port: 6379    
     timeout: 6000
     database: 1
@@ -86,12 +86,12 @@ spring:
   elasticsearch:
     rest:
       uris:
-      - http://192.168.11.130:9200     
+      - http://127.0.0.1:9200
   data:
     elasticsearch:
       client:
         reactive:
-          endpoints : 192.168.11.130:9200
+          endpoints : 127.0.0.1:9200
           socket-timeout: 3000
           connection-timeout: 3000 
 # 设置连接超时时间
@@ -113,7 +113,7 @@ security:
 mybatis-plus:
   global-config:
     banner: false
-  mapper-locations: classpath*:com/open/**/dao/*.xml         
+  mapper-locations: classpath*:com/mysting/tomato/**/dao/*.xml
 
 #设置最大超时时间
 ribbon:  

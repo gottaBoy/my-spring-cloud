@@ -8,10 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.aliyun.oss.OSSClient;
 
- 
 /**
- * @author 作者 owen 
- * @version 创建时间：2018年1月31日 下午9:11:36 类说明 白名单
  * 阿里云配置
  */
 @Configuration

@@ -4,10 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-/** 
-* @author 作者 owen 
-* @version 创建时间：2017年11月28日 下午22:50:29 
-* 类说明 
+/**
 * eureka高可用三台机器
 */
 

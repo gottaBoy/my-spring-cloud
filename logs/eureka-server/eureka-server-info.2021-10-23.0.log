@@ -1,0 +1,58 @@
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:58:59.002 INFO 79293 [main] com.mysting.tomato.eureka.EurekaServerApp The following profiles are active: slave0
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:00.553 INFO 79293 [main] org.springframework.cloud.context.scope.GenericScope BeanFactory id=3eef3dab-d3b4-3968-9da4-6d242082ea0f
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:01.528 INFO 79293 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1111 (http)
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:01.544 INFO 79293 [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1111"]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:01.545 INFO 79293 [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:01.545 INFO 79293 [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:01.702 INFO 79293 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:01.703 INFO 79293 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2667 ms
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:03.884 INFO 79293 [main] com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:05.896 INFO 79293 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:06.637 INFO 79293 [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:06.912 INFO 79293 [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.264 INFO 79293 [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.328 INFO 79293 [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application EUREKA-SERVER with eureka with status UP
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.334 INFO 79293 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.335 INFO 79293 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.337 INFO 79293 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.364 INFO 79293 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.365 INFO 79293 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.378 INFO 79293 [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1111"]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.439 INFO 79293 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1111 (http) with context path ''
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.441 INFO 79293 [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 1111
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.446 INFO 79293 [main] com.mysting.tomato.eureka.EurekaServerApp Started EurekaServerApp in 12.098 seconds (JVM running for 13.153)
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.687 INFO 79293 [http-nio-1111-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.687 INFO 79293 [http-nio-1111-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 19:59:08.704 INFO 79293 [http-nio-1111-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 17 ms
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 20:01:08.388 INFO 79293 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:35:49.457 INFO 79293 [SpringContextShutdownHook] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application EUREKA-SERVER with eureka with status DOWN
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:35:49.597 INFO 79293 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:43.045 INFO 84810 [main] com.mysting.tomato.eureka.EurekaServerApp The following profiles are active: slave0
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:44.713 INFO 84810 [main] org.springframework.cloud.context.scope.GenericScope BeanFactory id=3eef3dab-d3b4-3968-9da4-6d242082ea0f
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:45.550 INFO 84810 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 1111 (http)
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:45.563 INFO 84810 [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-1111"]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:45.564 INFO 84810 [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:45.564 INFO 84810 [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.37]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:45.681 INFO 84810 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:45.681 INFO 84810 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2609 ms
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:47.556 INFO 84810 [main] com.sun.jersey.server.impl.application.WebApplicationImpl Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:48.735 INFO 84810 [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:49.256 INFO 84810 [main] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration Eureka HTTP Client uses Jersey
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:49.412 INFO 84810 [main] org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.250 INFO 84810 [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 18 endpoint(s) beneath base path '/actuator'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.300 INFO 84810 [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application EUREKA-SERVER with eureka with status UP
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.306 INFO 84810 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Setting the eureka configuration..
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.307 INFO 84810 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka data center value eureka.datacenter is not set, defaulting to default
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.308 INFO 84810 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Eureka environment value eureka.environment is not set, defaulting to test
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.332 INFO 84810 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap isAws returned false
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.332 INFO 84810 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap Initialized server context
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.345 INFO 84810 [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-1111"]
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.387 INFO 84810 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 1111 (http) with context path ''
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.388 INFO 84810 [main] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 1111
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.393 INFO 84810 [main] com.mysting.tomato.eureka.EurekaServerApp Started EurekaServerApp in 8.903 seconds (JVM running for 9.493)
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.523 INFO 84810 [http-nio-1111-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.523 INFO 84810 [http-nio-1111-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:36:50.548 INFO 84810 [http-nio-1111-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 24 ms
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 22:38:50.360 INFO 84810 [Thread-13] org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration Started Eureka Server
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 23:55:51.616 INFO 84810 [SpringContextShutdownHook] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application EUREKA-SERVER with eureka with status DOWN
+[eureka-server:192.168.0.102:1111] [,] 2021-10-23 23:55:51.699 INFO 84810 [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'

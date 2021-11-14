@@ -7,8 +7,6 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.Map;
 
 /**
- * @author 作者 owen 
- * @version 创建时间：2017年11月12日 上午22:57:51
  * 文件service 目前仅支持阿里云oss,七牛云
 */
 public interface FileService {

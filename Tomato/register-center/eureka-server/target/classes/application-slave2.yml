@@ -4,8 +4,8 @@ security:
   basic:
     enabled: true
   user:
-    name: ocp
-    password: ocp2019
+    name: mysting
+    password: mysting2016
 
 management:
   security:
@@ -18,7 +18,7 @@ eureka:
     register-with-eureka: true  #false:不作为一个客户端注册到注册中心
     fetch-registry: true      #为true时，可以启动，但报异常：Cannot execute request on any known server
     serviceUrl:
-      defaultZone: http://ocp:ocp2019@eureka1:1111/eureka,http://ocp:ocp2019@eureka2:1112/eureka,http://ocp:ocp2019@eureka3:1113/eureka
+      defaultZone: http://mysting:mysting2016@eureka1:1111/eureka,http://mysting:mysting2016@eureka2:1112/eureka,http://mysting:mysting2016@eureka3:1113/eureka
   instance:
     hostname: eureka2
     appname: eureka-server 
@@ -29,7 +29,7 @@ eureka:
 logging:
   level:
     root: INFO
-    com.open.capacity: INFO  
+    com.mysting.tomato: INFO
     org.springframework.web: INFO
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE

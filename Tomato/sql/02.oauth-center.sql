@@ -21,7 +21,7 @@ CREATE TABLE `oauth_client_details` (
   `refresh_token_validity` int(11) DEFAULT NULL COMMENT 'refresh_token有效期',
   `additional_information` varchar(4096) DEFAULT '{}' COMMENT '{}',
   `autoapprove` varchar(256) DEFAULT NULL COMMENT '是否自动授权 是-true',
-  `status` int(1) DEFAULT NULL,
+  `status` int(1) DEFAULT NULL COMMENT '状态',
   `if_limit` int(11) NOT NULL DEFAULT '0' COMMENT '是否应用限流',
   `limit_count` int(11) NOT NULL DEFAULT '10000' COMMENT '限流阈值',
   PRIMARY KEY (`id`)
@@ -63,8 +63,8 @@ CREATE TABLE `sys_gateway_routes` (
   `order` int(11) DEFAULT NULL COMMENT '排序',
   `description` varchar(500) DEFAULT NULL COMMENT '描述',
   `delFlag` int(11) DEFAULT '0' COMMENT '删除标志 0 不删除 1 删除',
-  `create_time` datetime NOT NULL,
-  `update_time` datetime NOT NULL,
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='服务网关路由表';
 
@@ -78,7 +78,7 @@ CREATE TABLE `sys_gateway_routes` (
 #
 DROP TABLE IF EXISTS `sys_service`;
 CREATE TABLE `sys_service` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `parent_id` int(11) NOT NULL,
   `name` varchar(64) NOT NULL,
   `path` varchar(1024) DEFAULT NULL,

@@ -9,12 +9,12 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `sys_log`;
 CREATE TABLE `sys_log` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT '主键',
   `username` varchar(50) COMMENT '用户名',
   `module` varchar(3000)  COMMENT '模块名',
   `params` text COMMENT '方法参数',
   `remark` text COMMENT '备注',
-  `flag` tinyint(1) NOT NULL,
-  `create_time` datetime NOT NULL,
+  `flag` tinyint(1) NOT NULL COMMENT '标签',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
   PRIMARY KEY (`id`) 
 ) ENGINE=archive DEFAULT CHARSET=utf8mb4;

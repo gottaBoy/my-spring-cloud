@@ -2,39 +2,81 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-spring-boot-starter" />
-        <module name="db-spring-boot-starter" />
         <module name="rabbitmq-spring-boot-starter" />
-        <module name="batch-center" />
-        <module name="ribbon-spring-boot-starter" />
         <module name="job-demo" />
+        <module name="ribbon-spring-boot-starter" />
         <module name="uaa-client-spring-boot-starter" />
-        <module name="redis-spring-boot-starter" />
-        <module name="eureka-server" />
+        <module name="test-rabbitmq-spring-boot-starter" />
         <module name="log-center" />
         <module name="job-admin" />
+        <module name="producer (2)" />
         <module name="file-center" />
+        <module name="txlcn-demo-common" />
         <module name="job-core" />
         <module name="back-center" />
-        <module name="user-center" />
+        <module name="consumer" />
         <module name="es-server" />
-        <module name="auth-sso" />
-        <module name="log-spring-boot-starter" />
+        <module name="txlcn-demo-spring-service-b" />
         <module name="auth-server" />
-        <module name="generator-center" />
-        <module name="new-api-gateway" />
-        <module name="uaa-server-spring-boot-starter" />
-        <module name="api-gateway" />
+        <module name="txlcn-demo-spring-service-a" />
+        <module name="produce" />
         <module name="es-client" />
+        <module name="uaa-server-spring-boot-starter" />
+        <module name="test-spring-boot-starter" />
+        <module name="api-gateway" />
         <module name="admin-server" />
-        <module name="sms-center" />
         <module name="transaction-center" />
-        <module name="workflow-center" />
         <module name="swagger-spring-boot-starter" />
+      </profile>
+      <profile name="Annotation profile for producer (1)" enabled="true">
+        <sourceOutputDir name="../../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="producer (1)" />
+      </profile>
+      <profile name="Annotation profile for mysting-tomato-platform" enabled="true">
+        <sourceOutputDir name="../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="db-spring-boot-starter" />
+        <module name="batch-center" />
+        <module name="redis-spring-boot-starter" />
+        <module name="eureka-server" />
+        <module name="test-sharding-jdbc-spring-boot-starter" />
+        <module name="user-center" />
+        <module name="auth-sso" />
+        <module name="test-redis-spring-boot-starter" />
+        <module name="log-spring-boot-starter" />
+        <module name="generator-center" />
+        <module name="test-feign-spring-boot-starter" />
+        <module name="test-jmeter-spring-boot-starter" />
+        <module name="sms-center" />
+        <module name="workflow-center" />
+      </profile>
+      <profile name="Annotation profile for tuning-center" enabled="true">
+        <sourceOutputDir name="../../../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="transaction-consumer" />
+        <module name="transaction-producer" />
+      </profile>
+      <profile name="Annotation profile for txlcn-demo-spring-service-c" enabled="true">
+        <sourceOutputDir name="../../../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="txlcn-demo-spring-service-c" />
+      </profile>
+      <profile name="Annotation profile for new-api-gateway" enabled="true">
+        <sourceOutputDir name="../../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="new-api-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,6 +88,7 @@
       <module name="batch-center" target="1.8" />
       <module name="business-center" target="1.8" />
       <module name="common-spring-boot-starter" target="1.8" />
+      <module name="consumer" target="1.8" />
       <module name="db-spring-boot-starter" target="1.8" />
       <module name="es-client" target="1.8" />
       <module name="es-server" target="1.8" />
@@ -64,13 +107,35 @@
       <module name="new-api-gateway" target="1.8" />
       <module name="oauth-center" target="1.8" />
       <module name="open-capacity-platform" target="1.8" />
+      <module name="produce" target="1.8" />
+      <module name="producer (1)" target="1.8" />
+      <module name="producer (2)" target="1.8" />
       <module name="rabbitmq-spring-boot-starter" target="1.8" />
       <module name="redis-spring-boot-starter" target="1.8" />
       <module name="register-center" target="1.8" />
       <module name="ribbon-spring-boot-starter" target="1.8" />
       <module name="sms-center" target="1.8" />
       <module name="swagger-spring-boot-starter" target="1.8" />
+      <module name="test-demo01" target="1.8" />
+      <module name="test-demo02" target="1.8" />
+      <module name="test-demo03" target="1.8" />
+      <module name="test-feign-spring-boot-starter" target="1.8" />
+      <module name="test-jmeter-spring-boot-starter" target="1.8" />
+      <module name="test-kafka-spring-boot-starter" target="1.8" />
+      <module name="test-rabbitmq-spring-boot-starter" target="1.8" />
+      <module name="test-redis-spring-boot-starter" target="1.8" />
+      <module name="test-rocketmq-spring-boot-starter" target="1.8" />
+      <module name="test-sharding-jdbc-spring-boot-starter" target="1.8" />
+      <module name="test-spring-boot-starter" target="1.8" />
+      <module name="test-txlcn-spring-boot-starter" target="1.8" />
       <module name="transaction-center" target="1.8" />
+      <module name="transaction-consumer" target="1.8" />
+      <module name="transaction-producer" target="1.8" />
+      <module name="tuning-center" target="1.8" />
+      <module name="txlcn-demo-common" target="1.8" />
+      <module name="txlcn-demo-spring-service-a" target="1.8" />
+      <module name="txlcn-demo-spring-service-b" target="1.8" />
+      <module name="txlcn-demo-spring-service-c" target="1.8" />
       <module name="uaa-client-spring-boot-starter" target="1.8" />
       <module name="uaa-server-spring-boot-starter" target="1.8" />
       <module name="user-center" target="1.8" />
@@ -89,6 +154,7 @@
       <module name="back-center" options="-parameters" />
       <module name="batch-center" options="-parameters" />
       <module name="common-spring-boot-starter" options="-parameters" />
+      <module name="consumer" options="-parameters" />
       <module name="db-spring-boot-starter" options="-parameters" />
       <module name="es-client" options="-parameters" />
       <module name="es-server" options="-parameters" />
@@ -101,12 +167,25 @@
       <module name="log-center" options="-parameters" />
       <module name="log-spring-boot-starter" options="-parameters" />
       <module name="new-api-gateway" options="-parameters" />
+      <module name="produce" options="-parameters" />
+      <module name="producer (2)" options="-parameters" />
       <module name="rabbitmq-spring-boot-starter" options="-parameters" />
       <module name="redis-spring-boot-starter" options="-parameters" />
       <module name="ribbon-spring-boot-starter" options="-parameters" />
       <module name="sms-center" options="-parameters" />
       <module name="swagger-spring-boot-starter" options="-parameters" />
+      <module name="test-jmeter-spring-boot-starter" options="-parameters" />
+      <module name="test-rabbitmq-spring-boot-starter" options="-parameters" />
+      <module name="test-redis-spring-boot-starter" options="-parameters" />
+      <module name="test-sharding-jdbc-spring-boot-starter" options="-parameters" />
+      <module name="test-spring-boot-starter" options="-parameters" />
       <module name="transaction-center" options="-parameters" />
+      <module name="transaction-consumer" options="-parameters" />
+      <module name="transaction-producer" options="-parameters" />
+      <module name="txlcn-demo-common" options="-parameters" />
+      <module name="txlcn-demo-spring-service-a" options="-parameters" />
+      <module name="txlcn-demo-spring-service-b" options="-parameters" />
+      <module name="txlcn-demo-spring-service-c" options="-parameters" />
       <module name="uaa-client-spring-boot-starter" options="-parameters" />
       <module name="uaa-server-spring-boot-starter" options="-parameters" />
       <module name="user-center" options="-parameters" />

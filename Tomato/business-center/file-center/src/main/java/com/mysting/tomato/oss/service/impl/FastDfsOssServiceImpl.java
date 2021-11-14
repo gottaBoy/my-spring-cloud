@@ -35,8 +35,6 @@ import java.util.Objects;
 
 /**
  * fastdfs存储文件
- * @author pm 1280415703@qq.com
- * @date 2019/8/11 16:22
  */
 @Import(FdfsClientConfig.class)
 @Service("fastDfsOssServiceImpl")

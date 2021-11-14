@@ -18,7 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 用于监听eureka服务停机通知
- * Created by ace on 2017/7/8.
  */
 @Slf4j
 @Configuration
@@ -37,13 +36,11 @@ public class EurekaInstanceCanceledListener implements ApplicationListener {
                 registeredApplication.getInstances().forEach((instance) -> {
                     if (instance.getInstanceId().equals(event.getServerId())) {
                         log.error("服务：" + instance.getAppName() + " 挂啦。。。");
-                        // // TODO: 2017/9/3 扩展消息提醒 邮件、手机短信、微信等
+                        // TODO: 扩展消息提醒 邮件、手机短信、微信等
 //                        CountDownLatch
                     }
                 });
             });
-
-
         }
         if (applicationEvent instanceof EurekaInstanceRegisteredEvent) {
             EurekaInstanceRegisteredEvent event = (EurekaInstanceRegisteredEvent) applicationEvent;
@@ -54,7 +51,7 @@ public class EurekaInstanceCanceledListener implements ApplicationListener {
             log.trace("心跳检测服务：" + event.getInstanceInfo().getAppName() + "。。");
         }
         if (applicationEvent instanceof EurekaRegistryAvailableEvent) {
-            log.trace("服务 Aualiable。。");
+            log.trace("服务 Available。。");
         }
 
     }

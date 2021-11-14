@@ -58,6 +58,33 @@
     <file url="file://$PROJECT_DIR$/register-center/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/register-center/eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/register-center/eureka-server/src/main/view" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-kafka-spring-boot-starter/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-kafka-spring-boot-starter/consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-kafka-spring-boot-starter/producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-kafka-spring-boot-starter/producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rabbitmq-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rabbitmq-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-redis-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-redis-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo01/producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo01/producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo02/produce/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo03/transaction-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo03/transaction-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo03/transaction-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-rocketmq-spring-boot-starter/test-demo03/transaction-producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-sharding-jdbc-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-sharding-jdbc-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-spring-service-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-spring-service-a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-spring-service-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-spring-service-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-spring-service-c/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tuning-center/test-txlcn-spring-boot-starter/txlcn-demo-spring-service-c/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-portal/back-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-portal/back-center/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web-portal/back-center/src/main/view" charset="UTF-8" />

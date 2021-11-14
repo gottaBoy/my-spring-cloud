@@ -26,7 +26,7 @@ import io.swagger.annotations.ApiOperation;
  * @author zhangzhiguang
  * @create 2018-08-24 20:38
  *  blog: https://blog.51cto.com/13005375 
- * code: https://gitee.com/owenwangwen/open-capacity-platform 
+ * code: https://gitee.com/owenwangwen/com.mysting.tomato-platform 
  */
 @Controller
 @Api(tags = "REDIS API")

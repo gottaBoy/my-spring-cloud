@@ -8,63 +8,57 @@
   <artifactId>user-center</artifactId>
   <description>用户中心</description>
   <dependencies>
-  
-  		<!-- 关系型数据库配置 -->
-	 	<dependency>
-  			<groupId>com.mysting.tomato</groupId>
-  			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
-  		
-  		<!-- 非关系型数据库配置 -->
-  		<dependency>
-  			<groupId>com.mysting.tomato</groupId>
-  			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
-  		<!-- 日志中心 -->
-		<dependency>
-  			<groupId>com.mysting.tomato</groupId>
-  			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
 
-  		<!-- 公共实体配置 -->
-  		<dependency>
-  			<groupId>com.mysting.tomato</groupId>
-  			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
-  		
-  		<!-- 资源服务器配置 -->
-  		<dependency>
-  			<groupId>com.mysting.tomato</groupId>
-  			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
-		
-		<!-- API文档配置 -->
-		<dependency>
-  			<groupId>com.mysting.tomato</groupId>
-  			<artifactId>swagger-spring-boot-starter</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
+	  <!-- 关系型数据库配置 -->
+	  <dependency>
+		  <groupId>com.mysting.tomato</groupId>
+		  <artifactId>db-spring-boot-starter</artifactId>
+	  </dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+	  <!-- 非关系型数据库配置 -->
+	  <dependency>
+		  <groupId>com.mysting.tomato</groupId>
+		  <artifactId>redis-spring-boot-starter</artifactId>
+	  </dependency>
+	  <!-- 日志中心 -->
+	  <dependency>
+		  <groupId>com.mysting.tomato</groupId>
+		  <artifactId>log-spring-boot-starter</artifactId>
+	  </dependency>
 
-		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-configuration-processor</artifactId>
-			<optional>true</optional>
-		</dependency>
+	  <!-- 公共实体配置 -->
+	  <dependency>
+		  <groupId>com.mysting.tomato</groupId>
+		  <artifactId>common-spring-boot-starter</artifactId>
+	  </dependency>
+
+	  <!-- 资源服务器配置 -->
+	  <dependency>
+		  <groupId>com.mysting.tomato</groupId>
+		  <artifactId>uaa-client-spring-boot-starter</artifactId>
+	  </dependency>
+
+	  <!-- API文档配置 -->
+	  <dependency>
+		  <groupId>com.mysting.tomato</groupId>
+		  <artifactId>swagger-spring-boot-starter</artifactId>
+	  </dependency>
+
+	  <dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-web</artifactId>
+	  </dependency>
+
+	  <dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-actuator</artifactId>
+	  </dependency>
+
+	  <dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-configuration-processor</artifactId>
+		  <optional>true</optional>
+	  </dependency>
  
 		<!-- easypoi -->
 		<dependency>
@@ -119,14 +113,12 @@
 					</execution>
 				</executions>
 			</plugin>
-
-
 			<!-- 首先加入pom ${docker.image.prefix} ： 这个是你的dockerhub注册上面的名字 gitgeek 这个是我注册的 
 				${project.artifactId} ： 项目的名称 dockerDirectory ： dockerfile的文件路径 -->
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.4.13</version>
+				<version>1.0.0</version>
 				<configuration>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
